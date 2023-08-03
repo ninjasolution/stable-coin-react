@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.overflow-x-auto {
+    overflow-x: auto;
+  }
+
+  /* Hide the scrollbar for WebKit browsers (e.g., Chrome, Safari) */
+  .overflow-x-auto::-webkit-scrollbar {
+    display: none;
+  }
+
+.goldenText{
+  background: linear-gradient(180deg,#F0B90B 33.33%,#FBDA3C 100%);
+}
+.card-box-shadow{
+ box-shadow:  0px 0px 1px rgba(24,26,32,0.1), 0px 16px 32px rgba(71,77,87,0.16), 0px 8px 16px rgba(24,26,32,0.16);
+}
+.about_landing{
+  background: url("/Landing.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right; 
+  /* max-height: 423px; */
+
+}
+.landing {
+    background: url("https://cdn.pixabay.com/photo/2023/07/29/22/10/birds-8157789_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+@media (min-width: 768px) {
+  .landing {
+    background: url("https://cdn.pixabay.com/photo/2023/07/29/22/10/birds-8157789_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+}
+
+@media  (max-width : 767px) {
+  .mobile_landing{
+    background: url("/mobile_landing.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+   /*  background-position: right;  */
+    /* max-height: 423px; */
+  
+  }
+}
+@media  (max-width : 640px) {
+  .mobile_landing{
+    background: url("/mobile_landing.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    /* max-height: 423px; */
+  
+  }
+}
