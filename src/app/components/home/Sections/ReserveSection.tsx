@@ -9,10 +9,12 @@ export interface IReserveSectionProps {
 export default function ReserveSection (props: IReserveSectionProps) {
   return (
     <>
-       <section className="my-10 grid-cols-12 py-12 sm:px-12 px-4  ">
-          <HeadingTitle title={props.title} />
-          
+   
 
+    <section className="my-10 grid-cols-12 py-12 sm:px-12 px-4  ">
+        
+          <div className='flex flex-col items-center justify-center'>    
+  <HeadingTitle title={props.title} />
           
           <div className="flex justify-center rounded-xl  gap-3 mt-20 bg-slate-200  md:w-4/5 overflow-x-auto">
             <div className="flex flex-col gap-10 items-center boder py-10 flex-1 ">
@@ -46,7 +48,10 @@ export default function ReserveSection (props: IReserveSectionProps) {
               Download letest reserve report <BiSolidDownload />
             </span>
           </p>
+          </div>
         </section>
+ 
+      
     </>
   );
 }

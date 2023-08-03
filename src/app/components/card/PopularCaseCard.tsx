@@ -5,7 +5,7 @@ import launchPool from "../../assets/launch-pool.png";
 
 const PopularCaseCard: React.FC = () => {
   return (
-    <section className="text-gray-600 sm:px-10 px-4">
+    <section className="flex justify-center text-gray-600 sm:px-10 px-4">
       <div className="container px-5 py-24 ">
         <div className="grid lg:grid-cols-2 grid-cols-1 gap-4  -m-4">
          

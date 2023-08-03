@@ -9,7 +9,7 @@ export interface IWhyBusdProps {
 export default function WhyBusd (props: IWhyBusdProps) {
   return (
     <>
-      <section className="my-5  md:mx-10 ">
+      <section className="my-5 flex justify-center items-center md:mx-10 ">
           <div className="flex flex-col sm:gap-20 mt-5 space-y-4">
             <div className="sm:px-10 px-4 ">
               <HeadingTitle title={props.title} />

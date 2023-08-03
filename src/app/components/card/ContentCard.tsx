@@ -23,7 +23,7 @@ const ContentCard: React.FC<ContentCardProps> = ({
     titleClass,
   }) => {
     return (
-      <div className="grid lg:grid-cols-12 grid-cols-1 gap-5 px-10">
+      <div className="grid lg:grid-cols-12 grid-cols-1 gap-10 ">
         <div
           className={`${
             imageOrderClass ? imageOrderClass : ""} ${
