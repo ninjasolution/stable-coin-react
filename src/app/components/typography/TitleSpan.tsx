@@ -7,7 +7,7 @@ type TitlesSpanProps = {
 
 const TitlesSpan: React.FC<TitlesSpanProps> = ({ title, subtitle }) => {
   return (
-    <div className=" text-black_100 ">
+    <div className=" text-black_100 px-10 ">
       <h1 className="font-semibold lg:text-3xl md:text-2xl sm:text-xl text-base leading-[40px] ">
         {title}
       </h1>

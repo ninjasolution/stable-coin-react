@@ -11,7 +11,7 @@ type RewardCardProps = {
 const RewardCard:React.FC<RewardCardProps> = ({image,title,from,to}) => {
     
     return (
-        <div className='p-5 my-10 items-center border max-w-[15rem] bg-slate-100 flex flex-col gap-3  justify-center'>
+        <div className='p-5 sm:my-10 items-center border max-w-[15rem] bg-slate-100 flex flex-col gap-3  justify-center'>
         <Image src={image} alt="coint_logo" height={100} width={100}/>
         <h1>{title}</h1>
         <span>APR <span className='text-green-500'>{from} - {to} </span></span>

@@ -44,7 +44,7 @@ export default function Home() {
           </div>
         </div>
         {/* Titles */}
-        <div className="flex sm:flex-row flex-col text-center sm:text-start  sm:justify-around items-center">
+        <div className="flex sm:flex-row flex-col text-center sm:text-start  sm:justify-around items-center px-10">
           <TitlesSpan title="$38 Billion" subtitle="24h trading voliume" />
           <TitlesSpan title="350+" subtitle="Cryptocurency Listed" />
           <TitlesSpan title="140 Million" subtitle="Registered Users" />
@@ -65,7 +65,7 @@ export default function Home() {
           {/* Populer Crypto */}
 
           <div>
-            <div className="flex items-center justify-between p-3 pb-5 pl-[5rem] pr-3">
+            <div className="flex items-center justify-between p-3 pb-5 px-10 py-10 pr-3">
               <h1 className="text-semibold lg:text-3xl md:text-2xl sm:text-xl text-lg ">
                 Populer cryptocurrencies
               </h1>
@@ -143,7 +143,7 @@ export default function Home() {
 
           {/* Sing up section */}
 
-          <section className="mt-10 sm:pl-[8rem] px-8 ">
+          <section className="py-10 sm:pl-[8rem] px-8 ">
             <h1 className="font-semibold text-xl sm:text-2xl text-black_100 ">
               Sign Up now to build your own portfolio for free!
             </h1>
@@ -153,7 +153,7 @@ export default function Home() {
             </button>
           </section>
 
-          <section className="mt-10 sm:pl-[8rem] px-8 ">
+          <section className="py-10 flex flex-col justify-center px-10 ">
             <div>
               <div className="flex md:flex-row flex-col items-center justify-between  pb-3 pr-3">
                 <h1 className="text-bold text-[40px] text-black_100 ">
@@ -223,16 +223,82 @@ export default function Home() {
             </div>
           </section>
           {/* Daily Reward Section */}
-          <section className=" py-3 pr-3 sm:pl-10 px-8 sm:text-start text-center">
+          <section className=" py-3 pr-3 sm:pl-10 px-10 sm:text-start text-center">
             <div className=" ">
               <h1 className="font-bold sm:text-[40px] text-2xl  text-black_100 ">
                 Earn daily rewards on your idle tokens
               </h1>
             </div>
-            <h2 className="text-offwhite_200 text-xl">
+            <h2 className="text-offwhite_200 text-xl py-10 ">
               Simple & Secure.Populer coins and start earning
             </h2>
-            <div className="flex sm:flex-row flex-col justify-center sm:justify-start items-center">
+            <div className="flex gap-10 flex-wrap sm:flex-row  flex-col justify-center sm:justify-between items-center">
+              <RewardCard
+                title="USDT"
+                image="/vercel.svg"
+                from="0.38%"
+                to="123.14%"
+              />
+              <RewardCard
+                title="USDT"
+                image="/vercel.svg"
+                from="0.38%"
+                to="123.14%"
+              />
+              <RewardCard
+                title="USDT"
+                image="/vercel.svg"
+                from="0.38%"
+                to="123.14%"
+              />
+              <RewardCard
+                title="USDT"
+                image="/vercel.svg"
+                from="0.38%"
+                to="123.14%"
+              />
+              <RewardCard
+                title="USDT"
+                image="/vercel.svg"
+                from="0.38%"
+                to="123.14%"
+              />
+              <RewardCard
+                title="USDT"
+                image="/vercel.svg"
+                from="0.38%"
+                to="123.14%"
+              />
+              <RewardCard
+                title="USDT"
+                image="/vercel.svg"
+                from="0.38%"
+                to="123.14%"
+              />
+              <RewardCard
+                title="USDT"
+                image="/vercel.svg"
+                from="0.38%"
+                to="123.14%"
+              />
+              <RewardCard
+                title="USDT"
+                image="/vercel.svg"
+                from="0.38%"
+                to="123.14%"
+              />
+              <RewardCard
+                title="USDT"
+                image="/vercel.svg"
+                from="0.38%"
+                to="123.14%"
+              />{" "}
+              <RewardCard
+                title="USDT"
+                image="/vercel.svg"
+                from="0.38%"
+                to="123.14%"
+              />
               <RewardCard
                 title="USDT"
                 image="/vercel.svg"
