@@ -10,7 +10,7 @@ const PopularCaseCard: React.FC = () => {
         <div className="grid lg:grid-cols-2 grid-cols-1 gap-4  -m-4">
          
 
-          <div className="md:p-4 lg:w-full md:w-full ">
+          <div className="md:p-4 lg:w-full md:w-full s">
             <div className="flex flex-row   border-2 rounded-3xl border-gray-200 border-opacity-50 p-8  shadow-xl">
               <div className="flex-grow">
                 <h2 className="text-gray-900 text-lg sm:text-2xl title-font font-medium mb-3">
