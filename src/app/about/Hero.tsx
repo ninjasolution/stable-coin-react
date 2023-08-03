@@ -3,7 +3,7 @@ import React from 'react'
 const Hero = () => {
   return (
     <nav className="bg-white  text-sm ">
-      <div className="flex items-center gap-3 p-10 about_landing h-[15rem] sm:h-[70vh] ">
+      <div className="flex items-center gap-3 p-10 landing h-[15rem] sm:h-[70vh] ">
         <div className="hidden md:block md:basis-1/2 font-semibold pb-10 sm:px-10">
           <h1 className=" md:text-[42px] lg:text-[48] text-xl leading-[56px]  md:max-w-[40rem]">
             Welcome to Binance

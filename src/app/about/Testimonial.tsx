@@ -5,7 +5,7 @@ import testi from "../../app/assets/testi.png";
 const Testimonial: React.FC = () => {
   return (
     <>
-      <div className="flex flex-col sm:flex-row justify-center items-center gap-10 rounded-lg p-4 py-24">
+      <div className="flex flex-col sm:flex-row justify-center items-center gap-10 rounded-lg p-4 py-24 sm:px-10">
         <div className="w-44 ">
           <Image
             src={testi}

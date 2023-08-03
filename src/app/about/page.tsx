@@ -30,7 +30,10 @@ const About = () => {
       <TitleCard/>
       <OurMission />
       <OurEcoSystem />
-      <ContentCardSection/>
+    
+        <ContentCardSection/>
+    
+      
       <Testimonial/>
       <GlobalAdvisory/>
       <WorkingAtSection/>

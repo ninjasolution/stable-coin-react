@@ -21,7 +21,7 @@ export default function TitleCard (props: ITitleCardProps) {
     />
     <TitleCardItem
     title='24/7 '
-    description='customer support in 65 languages'
+    description='customer support in '
     image='/bank_icon.png'
     />
     
