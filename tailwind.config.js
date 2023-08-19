@@ -6,6 +6,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      images: {
+        domains: ['bin.bnbstatic.com'],
+      },
       colors:{
         
         offwhite_50:"#474D57",

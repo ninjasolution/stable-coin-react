@@ -28,14 +28,15 @@
 
 }
 .landing {
-    background: url("https://cdn.pixabay.com/photo/2023/07/29/22/10/birds-8157789_1280.jpg");
+    background: url("/Landing.png");
     background-repeat: no-repeat;
     background-size: cover;
   }
 
 @media (min-width: 768px) {
   .landing {
-    background: url("https://cdn.pixabay.com/photo/2023/07/29/22/10/birds-8157789_1280.jpg");
+    background: url("/Landing.png");
+
     background-repeat: no-repeat;
     background-size: cover;
     
