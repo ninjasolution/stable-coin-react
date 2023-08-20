@@ -39,7 +39,7 @@ const page = () => {
           <p>A secure way to farm new assets.</p>
         </div>
       </div>
-      <section className=" mx-10 overflow-auto bg-gray-100 rounded-lg">
+      <section className="md:mx-10 overflow-auto bg-gray-100 rounded-lg">
         <div
           className="py-10 px-10 flex flex-col gap-10 
         md:flex-row md:items-center md:justify-between w-full  "
@@ -49,7 +49,7 @@ const page = () => {
         </div>
       </section>
 
-      <section className=" mx-10 overflow-auto bg-gray-100 rounded-lg mt-12">
+      <section className="md:mx-10 overflow-auto bg-gray-100 rounded-lg mt-12">
         <div
           className="py-10 px-10 flex flex-col gap-10 
         md:flex-row md:items-center md:justify-between w-full  "
@@ -61,7 +61,7 @@ const page = () => {
 
       {/* Completed section  */}
 
-      <section className=" mx-10 overflow-auto bg-gray-100 rounded-lg mt-12">
+      <section className="md:mx-10 overflow-auto bg-gray-100 rounded-lg mt-12">
         <div
           className="py-10 px-10 flex flex-col gap-10 
         md:flex-row md:items-center md:justify-between w-full  "
