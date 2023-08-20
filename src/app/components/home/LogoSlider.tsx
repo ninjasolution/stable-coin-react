@@ -1,6 +1,5 @@
 import React from "react";
 import Marquee from "react-fast-marquee";
-// import img from "next/img";
 import HeadingTitle from "../typography/HeadingTitle";
 const LogoSliderProps = [];
 
